@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNet.Razor.TagHelpers;
 using System.Threading.Tasks;
 
-namespace taghelper
+namespace TagHelpers
 {
     [HtmlTargetElement("d3-sparkline")]
     public class D3SparklineTagHelper : TagHelper
