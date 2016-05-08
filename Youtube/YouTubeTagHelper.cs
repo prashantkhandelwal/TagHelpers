@@ -39,6 +39,7 @@ namespace TagHelpers
 
             embedString.Append("/?");
             embedString.Append("autoplay=" + (autoplay ? "1" : "0"));
+            embedString.Append("&rel=" + (disablerelatedvideos ? "0" : "1"));
             embedString.Append("&controls=" + (showcontrols ? "1" : "0"));
             embedString.Append("&showinfo=" + (showinfo ? "1" : "0"));
 
